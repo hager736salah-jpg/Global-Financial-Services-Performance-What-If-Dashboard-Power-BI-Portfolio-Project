@@ -1,0 +1,23 @@
+# Global Financial Services Performance & What-If Dashboard (Power BI)
+
+An interactive 2-page **Power BI** dashboard analyzing revenue, billable hours, average hourly rates, client counts, service line performance, and What-If projections across global regions and departments.
+
+## 🎥 Video Walkthrough
+Watch the demo video here: [Watch Video](https://youtu.be/kVfhKH-v72c)
+
+---
+
+## 📌 Dashboard Sections & Key Features
+
+### 1. Performance Overview (`Analysis`)
+- **KPIs:** Total Revenue (`195M`), Total Hours (`217K`), Average Hourly Rate (`901.00`), and Total Clients (`4K`).
+- **Visuals & Slicers:** Revenue by Department (`Audit`, `Management`, `Advisory`, `Tax`, `Legal`), Revenue by Region (`Europe`, `Americas`, `EMEA`, `APAC`), and monthly revenue trend, filtered by Country, Department, and Region.
+
+### 2. Service Lines & Scenario Modeling (`What if ?`)
+- **KPIs & Gauge:** Expected Profit (`4bn`), Total Services (`48K`), and Revenue Progress (`195M` against `391M`).
+- **Visuals & Parameters:** Revenue by `SERVICE_DESCRIPTION` (`Annual Tax Filing`, `Strategy Consulting`, `Legal Consultation`, `Market Analysis`, `Quarterly Review`), interactive What-If parameter slider, and monthly actual vs. projected revenue comparison.
+
+---
+
+## 🛠️ Tools & Techniques
+- **Power BI Desktop** (SQL Server Integration, Data Modeling, DAX Measures, What-If Parameters, Interactive Slicers)
